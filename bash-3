@@ -18,10 +18,10 @@ gcloud compute instances list
 
 fi
 
-if ! gcloud compute instances list |grep example-instance-5
+if ! gcloud compute instances list |grep jam-3
 then
 
-gcloud compute instances create example-instance-5 --zone=us-central1-a
+gcloud compute instances create jam-3 --zone=us-central1-a
 
 fi
 
